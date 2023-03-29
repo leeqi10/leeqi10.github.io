@@ -732,8 +732,8 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
   version: "latest" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
-#配置develop
-deloy:
+#配置deploy
+deploy:
   type: git
   repo: https://github.com/leeqi10/leeqi10.github.io.git
   branch: main
