@@ -2,7 +2,7 @@
 # 配置菜单导航的名称、路径和图标icon.
 menu:
   Index:
-    url: /https://leeqi10.github.io
+    url: /
     icon: fas fa-home
   Tags:
     url: /tags
@@ -732,3 +732,8 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
   version: "latest" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
+#配置develop
+deloy:
+  type: git
+  repo: https://github.com/leeqi10/leeqi10.github.io.git
+  branch: main
